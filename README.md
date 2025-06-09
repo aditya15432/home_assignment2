@@ -1,4 +1,19 @@
 # home_assignment2
+Question 1:
+Convolution Operations with Different Parameters
+This task demonstrates how stride and padding affect convolution operations in deep learning.
+
+Key Concepts:
+✔ Stride – Controls how much the kernel shifts (1 = move pixel-by-pixel, 2 = skip every other pixel).
+✔ Padding – Determines whether the output size shrinks (VALID) or matches input size (SAME).
+Tested Cases:
+Stride=1, Padding='VALID' → Output shrinks (3×3).
+Stride=1, Padding='SAME' → Output matches input (5×5 with zero-padding).
+Stride=2, Padding='VALID' → Output reduces further (2×2).
+Stride=2, Padding='SAME' → Balances stride and padding (3×3).
+Why It Matters:
+Stride affects feature map resolution and computation speed.
+Padding preserves spatial information in CNNs.
 
 Question 2:
 CNN Feature Extraction with Filters and Pooling
